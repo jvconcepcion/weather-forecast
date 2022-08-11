@@ -2,9 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Mobile and Desktop View
 
-![Mobile](https://i.ibb.co/JqJL8qL/Weather-forecast-mobile.png)
-![Desktop](https://i.ibb.co/NTmk3r9/Weather-forecast-desktop.png)
-
 Mobile----
 <img src="https://i.ibb.co/JqJL8qL/Weather-forecast-mobile.png" width="300">
 
