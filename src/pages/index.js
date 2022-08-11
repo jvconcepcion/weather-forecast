@@ -68,7 +68,7 @@ export default function Home({weatherData}) {
         <meta name="description" content="Weather Forecast" />
         <link rel="icon" href="/Jett-Chibi.ico" />
       </Head>
-      <main className={`mx-auto max-w-screen-md mt-4 py-5 xs:px-5 sm:px-32 bg-gradient-to-br h-fit shadow-gray-400 ${formatBGByTemp()}`}>
+      <main className={`mx-auto max-w-screen-md xs:mt-0 sm:mt-4 py-5 xs:px-5 sm:px-32 bg-gradient-to-br h-fit shadow-gray-400 ${formatBGByTemp()}`}>
         { weather ? (
           <>
             <TopButtons selectedCountry={weather.name} setQuery={(val) => setQuery({q: val})} />
@@ -97,7 +97,7 @@ export default function Home({weatherData}) {
       }
         
       </main>
-      <footer className="flex items-center justify-center bg-black py-3 border-t-2 border-white mt-4">
+      <footer className="flex items-center justify-center bg-black py-3 border-t-2 border-white xs:mt-0 sm:mt-4">
           © 2022 JThan
       </footer>
       <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
